@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+body{
+    font-size: large!important; 
+}
+.contenaire_globale{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenaire_articles{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 40px;
+}
+.card-maillot{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border:#fff 5px solid;
+    border-radius: 16px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1), 0 0 0 2px rgba(255,255, 255, 0.1) ;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+    margin-bottom: 20px;
+    max-height: 800px;
+    max-width: 400px;
+    margin: 20px;
+}
+.card-maillot:hover{
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2), 0 0 0 4px rgba(255,255, 255, 0.1) ;
+    border: 5px solid #1ABC9c;
+}
+.card-image{
+    height: 500px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-image img{
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+.card-maillot:hover .card-image img {
+    transform: scale(1.2);
+}
+.card-content{
+    background-color: #fff;
+    color: #2C3E50;
+    height: 100px;
+    padding: 16px;
+}
+.product-name{
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none!important;
+}
+.product-type{
+    font-size: 14;
+    margin: 8px 0;
+}
+.product-prix{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.titre{
+    height: 100%;
+    margin: auto;
+}
+.titre h1{
+    padding: 20px;
+}

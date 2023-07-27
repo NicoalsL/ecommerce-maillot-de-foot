@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+nav {
+    background-color: #1ABC9c;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.vert{
+    background-color: #1ABC9c;
+}
+a{
+    text-decoration: none !important;
+    
+}
